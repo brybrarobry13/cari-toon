@@ -1,0 +1,1 @@
+<img id="preview" src="../../z_uploads/admin_artist_gallery/thumb_artist_images/temp_<?=$_GET['file_name']?>" >

@@ -1,0 +1,25 @@
+.dateChooser TD {
+	CURSOR: default; TEXT-ALIGN: center;FONT-SIZE: 12px
+}
+.dateChooser TD.dateChooserActive:hover {
+	BACKGROUND: #0a246a; COLOR: white;FONT-SIZE: 12px
+}
+.dateChooser TD.dateChooserActiveToday {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; BORDER-LEFT: red 1px solid; BORDER-BOTTOM: red 1px solid;
+	FONT-SIZE: 12px
+}
+.dateChooser TH {
+	BACKGROUND: #aaa; WIDTH: 13px; COLOR: white; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.dateChooser OPTION {
+	FONT-SIZE: 12px
+}
+.dateChooser SELECT {
+	FONT-SIZE: 12px
+}
+.dateChooser {
+	BORDER-RIGHT: #aaa 2px outset; PADDING-RIGHT: 1px; BORDER-TOP: #aaa 2px outset; PADDING-LEFT: 1px; BACKGROUND: white; PADDING-BOTTOM: 1px; BORDER-LEFT: #aaa 2px outset; PADDING-TOP: 1px; BORDER-BOTTOM: #aaa 2px outset;FONT-SIZE: 11px
+}
+.dateChooser TABLE {
+	WIDTH: 100%;
+}

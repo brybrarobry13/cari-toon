@@ -1,0 +1,153 @@
+.chromestyle{
+width: 99%;
+font-family:Arial;
+font-weight: normal;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+width: 100%;
+padding: 4px 0;
+margin: 0;
+text-align: center; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline;
+}
+
+.chromestyle ul li a{
+font-family:Arial;
+color: #4a5173;
+font-size: 12px;
+font-weight: normal;
+padding: 4px 7px;
+margin: 0;
+text-decoration: none;
+}
+
+.chromestyle ul li a:hover{
+background: url(chromebg-over.gif) center center repeat-x; /*THEME CHANGE HERE*/
+}
+
+.chromestyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: "";
+/*content: " " url(downimage.gif); /*uncomment this line to use an image instead*/
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+	position:absolute;
+	margin:-25px 0 0 15px;;
+	border: 1px solid #BBB; /*THEME CHANGE HERE*/
+	border-bottom-width: 0;
+	font-family:Arial;
+	font-size:11px;
+	font-weight: normal;
+	line-height:18px;
+	z-index:100;
+	background-color: white;
+	width: 100px;
+	visibility: hidden;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+.dropmenudiv1{
+	position:absolute;
+	margin:25px 0 0 72px;;
+	border: 1px solid #BBB; /*THEME CHANGE HERE*/
+	border-bottom-width: 0;
+	font-family:Arial;
+	font-size:11px;
+	font-weight: normal;
+	line-height:18px;
+	z-index:100;
+	background-color: white;
+	width: 100px;
+	visibility: hidden;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+.dropmenudiv2{
+	position:absolute;
+	margin:190px 0 0 60px;;
+	border: 1px solid #BBB; /*THEME CHANGE HERE*/
+	border-bottom-width: 0;
+	font-family:Arial;
+	font-size:11px;
+	font-weight: normal;
+	line-height:18px;
+	z-index:100;
+	background-color: white;
+	width: 100px;
+	visibility: hidden;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+
+.dropmenudiv a{
+	font-size: 11px;
+	width: auto;
+	display: block;
+	text-indent: 3px;
+	border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+	padding: 2px 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #4a5173;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+	width: 100%;
+}
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+	background-image:url(a_blue.gif);
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.dropmenudiv1 a{
+	font-size: 11px;
+	width: auto;
+	display: block;
+	text-indent: 3px;
+	border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+	padding: 2px 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #4a5173;
+}
+
+* html .dropmenudiv1 a{ /*IE only hack*/
+	width: 100%;
+}
+.dropmenudiv1 a:hover{ /*THEME CHANGE HERE*/
+	background-image:url(a_blue.gif);
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.dropmenudiv2 a{
+	font-size: 11px;
+	width: auto;
+	display: block;
+	text-indent: 3px;
+	border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+	padding: 2px 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #4a5173;
+}
+
+* html .dropmenudiv2 a{ /*IE only hack*/
+	width: 100%;
+}
+.dropmenudiv2 a:hover{ /*THEME CHANGE HERE*/
+	background-image:url(a_blue.gif);
+	color:#FFFFFF;
+	text-decoration: none;
+}

@@ -1,0 +1,1 @@
+[13-Jan-2008 23:20:31] PHP Parse error:  syntax error, unexpected T_EXIT, expecting ',' or ';' in /home/syt/public_html/javascripts/tinymce/jscripts/tiny_mce/plugins/imagemanager/classes/Authenticators/SessionAuthenticator.php on line 52
